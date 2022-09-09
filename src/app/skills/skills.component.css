@@ -1,0 +1,97 @@
+.abe2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(253, 253, 253);
+    padding: 20px;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.container4:hover {
+    width: 710px;
+    height: 310px;
+    box-shadow: 0 0 30px 0 rgb(53, 52, 52) ;
+}
+
+.container4 p {
+    padding: 20px;
+    margin: 0 20px;
+    color: white;
+    font-size: 25px;
+    overflow: hidden;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.html{
+    background: rgb(255, 38, 0);
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+}
+
+.html:hover {
+    width: 35px;
+    border-radius: 10%;
+}
+
+.css {
+    background: blue;
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+}
+
+.css:hover {
+    width: 30px;
+    border-radius: 10%;
+}
+
+.java {
+    background: rgb(231, 231, 2);
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+}
+
+.java:hover {
+    width: 120px;
+    border-radius: 10px;
+}
+
+.angular {
+    background: rgb(247, 46, 46);
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+}
+
+.angular:hover {
+    width: 90px;
+    border-radius: 10px;
+}
+
+.react {
+    background: rgb(0, 174, 255);
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+}
+
+.react:hover{
+    width: 70px;
+    border-radius: 10px;
+}
+

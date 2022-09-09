@@ -1,0 +1,121 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+.ape{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container2{
+    background: none;
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    position: absolute;
+    transition: 1s;
+
+}
+
+.container2:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px 0px ;
+}
+
+.container2:hover .email {
+    width: 365px;
+}
+
+.container2:hover .phone {
+    width: 365px;
+}
+
+.container2:hover .address {
+    width: 365px;
+}
+
+.container2:hover .link {
+    width: 365px;
+}
+
+
+h3 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.671);
+    cursor: pointer;
+}
+
+.email {
+    background-color: rgba(255, 255, 255, 0.377);
+    padding: 5px;
+    margin: 50px 0;
+    font-size: 25px;
+    border-radius: 10px;
+    color: black;
+    font-family: sans-serif;
+    overflow: hidden;
+    width: 75px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.phone {
+    background-color: rgba(255, 255, 255, 0.384);
+    padding: 5px;
+    margin: 50px 0;
+    font-size: 25px;
+    border-radius: 10px;
+    color: black;
+    font-family: sans-serif;
+    overflow: hidden;
+    width: 85px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.address {
+    background-color: rgba(255, 255, 255, 0.377);
+    padding: 5px;
+    margin: 50px 0;
+    font-size: 25px;
+    border-radius: 10px;
+    color: black;
+    font-family: sans-serif;
+    overflow: hidden;
+    width: 105px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.link {
+    background-color: rgba(255, 255, 255, 0.377);
+    padding: 5px;
+    margin: 50px 0;
+    font-size: 25px;
+    border-radius: 10px;
+    color: black;
+    font-family: sans-serif;
+    overflow: hidden;
+    width: 105px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+
+span {
+    font-size: 22px;
+    color: blue;
+    font-weight: bolder;
+}
+
+hr {
+    border: 1px rgb(3, 135, 243) solid;
+}
+
